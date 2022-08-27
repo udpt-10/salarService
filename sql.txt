@@ -1,0 +1,15 @@
+create table [check] (
+	[check_id] int PRIMARY key not null,
+    [employee_id] int,
+    [checkin_time] time,
+    [checkout_time] time,
+    [working_time] float,
+    [date] date
+)
+
+create table [salary] (
+	[salary_id] int PRIMARY key not null,
+    [employee_id] int,
+    [date] date,
+    [money] double
+)
